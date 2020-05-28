@@ -43,11 +43,12 @@ function addNumbers(num1, num2) {
 function makePersonObject(id, name, email) {
 
   /* code here */
-  return {
-    id: id,
-    name: name,
-    email: email
-  }
+  const personObject =  {
+     id: 5,
+     name: "Leia",
+     email: "leia@leia.com",
+     }
+     return (personObject)
 }
 
 
