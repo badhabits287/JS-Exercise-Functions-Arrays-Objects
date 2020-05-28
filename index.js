@@ -44,9 +44,9 @@ function makePersonObject(id, name, email) {
 
   /* code here */
   const personObject =  {
-     id: 5,
-     name: "Leia",
-     email: "leia@leia.com",
+    "email": "luke@luke.com",
+     "id": 1,
+     "name": "Luke",
      }
      return (personObject)
 }
@@ -65,9 +65,9 @@ function makePersonObject(id, name, email) {
  * passing { id: 1, name: 'Leia', email: 'leia@leia.com` } as the argument,
  * the returned value should look like `Hello, my name is Leia`.
 */
-function getName(myObj) {
+function getName(personObject) {
   /* code here */
-  return `Hello, my name is ${myObj.name}`
+  return `Hello, my name is ${personObject.name}`
 }
 
 
